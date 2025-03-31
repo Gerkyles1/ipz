@@ -37,4 +37,8 @@ public class LevelsChooser : MonoBehaviour
             }
         }
     }
+    int f()
+    {
+        return 1;
+    }
 }
