@@ -30,6 +30,7 @@ public class LevelsChooser : MonoBehaviour
                         //SceneManager.LoadScene(int.Parse(levelNum.Groups[1].Value));
                         Debug.Log("scene load" + int.Parse(levelNum.Groups[1].Value));
                     });
+                    child = null;
                 }
                 else
                     child.GetComponent<Button>().interactable = false;
