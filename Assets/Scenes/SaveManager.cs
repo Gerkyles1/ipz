@@ -29,6 +29,7 @@ public class SaveManager : MonoBehaviour
             string json = File.ReadAllText(saveFilePath);
 
             data = JsonUtility.FromJson<SaveData>(json);
+            data = null;
         }
     }
 }
